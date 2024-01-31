@@ -1,0 +1,32 @@
+{% extends "base.html" %}
+{% load static %}
+{% block css %}
+<link rel="stylesheet" href="{% static 'styles/morestyles/about.css' %}">
+{% endblock %}
+{% block header%} 
+{% endblock %}
+{% block content %}
+<div class="about-container">
+    <div class="about-header">
+        <h1>Welcome to Our Story</h1>
+        <p>Discover the essence of who we are and what makes us special.</p>
+    </div>
+
+    <div class="about-content">
+        <div class="about-section">
+            <h2>Our Mission</h2>
+            <p>We are on a mission to <strong>inspire</strong>, <strong>create</strong>, and <strong>innovate</strong>.</p>
+        </div>
+
+        <div class="about-section">
+            <h2>What Sets Us Apart</h2>
+            <p>At our core, we believe in <em>excellence</em>, <em>creativity</em>, and <em>community</em>.</p>
+        </div>
+
+        <div class="about-section">
+            <h2>Meet the Team</h2>
+            <p>Our team consists of dedicated individuals who bring diverse skills and passions to the table.</p>
+        </div>
+    </div>
+</div>
+{% endblock content %}

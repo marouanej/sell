@@ -24,7 +24,7 @@ import os
 
 
 SECRET_KEY = os.getenv('SECRET_KEY')
-ALLOWED_HOSTS = ['localhost', '127.0.0.1', '[::1]','doro-store.render.com']
+ALLOWED_HOSTS = ['localhost', '127.0.0.1', '[::1]','doro-store.onrender.com']
 # Database
 DATABASES = {
     'default': {
